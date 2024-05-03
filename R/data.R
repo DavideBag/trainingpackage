@@ -8,8 +8,8 @@
 #' @format ##
 #' A tibble with 33 columns:
 #' \describe{
-#'  \item{variable}(IL6)
-#'  \item{description}(measurement of IL6 levels in blood in pg/ml)
+#'  \item{variable}{IL6}
+#'  \item{description}{measurement of IL6 levels in blood in pg/ml}
 #' }
 #'
 #' @source data generated with the simstudy package
