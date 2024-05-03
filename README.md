@@ -2,6 +2,7 @@
 # trainingpackage
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/DavideBag/trainingpackage/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/DavideBag/trainingpackage/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of trainingpackage is to ...
