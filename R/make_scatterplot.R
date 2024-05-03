@@ -7,7 +7,7 @@
 #'
 #' @examples
 #' \dontrun{
-#' make_scatterplot("/my/path/to/data.tsv)
+#' make_scatterplot("/my/path/to/data.tsv")
 #' }
 make_scatterplot <- function(tsvfuke) {
   data <- read_tsv(tsvfuke)

@@ -15,3 +15,8 @@ a plot object with a scatterplot from randomly selected variables
 \description{
 create a random scatterplot
 }
+\examples{
+\dontrun{
+make_scatterplot("/my/path/to/data.tsv")
+}
+}
