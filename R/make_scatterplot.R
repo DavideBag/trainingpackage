@@ -1,3 +1,14 @@
+#' create a random scatterplot
+#' @import tidyverse
+#' @param tsvfuke string indicating path to a tsv dataset
+#'
+#' @return a plot object with a scatterplot from randomly selected variables
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' make_scatterplot("/my/path/to/data.tsv)
+#' }
 make_scatterplot <- function(tsvfuke) {
   data <- read_tsv(tsvfuke)
 

@@ -1,3 +1,15 @@
+#' Summarises a Dataset
+#'
+#' @import tidyverse
+#' @param tsvfuke A string with the path to a TSV file with data we would like to import
+#'
+#' @return A tibble with 4 variables, summarising average, min and max of each variable
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' summarize_dataset("/my/path/to/dataset.tsv")
+#' }
 summarize_dataset <- function(tsvfuke) {
   data <- read_tsv(tsvfuke)
   summary_table <- tibble()
